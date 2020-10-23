@@ -1,0 +1,148 @@
+<article class="" style="position:relative ;margin-top: 50px;
+margin-bottom: 50px;">
+    <div id="background_article" class="background-article"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-md-push-9" style="margin-top: -34px">
+                <div class="row khoi_phai">
+                    <nav class="navbar navbar-collapse navbar-default">
+                        <div class="navbar-header pull-right">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar1" aria-expanded="true" aria-controls="navbar">
+
+                            </button>
+                        </div>
+                        <div class="clearfix visible-xs"></div>
+                        <div id="navbar1" class="collapse navbar-collapse navbar-default navbar-right collapse show">
+                            <div class="list-group chu_de">
+                                <div class="container-fluid text-center top_chude"
+                                    style="background-color: rgb(255, 138, 21);">
+                                    <p class="ten_top_sidebar" style="color: rgb(202, 0, 0);">Văn bản hành chính</p>
+                                </div><a href="index.php?chucnang=view_lichcongtac" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Lịch công tác</a><a
+                                    href="index.php?chucnang=view_vanbanphapquy" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Văn bản pháp quy</a><a
+                                    href="index.php?chucnang=view_congvanchidao" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Công văn chỉ đạo</a><a
+                                    href="index.php?chucnang=view_giaymoi" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Giấy mời</a><a
+                                    href="index.php?chucnang=view_thongtin3congkhai" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Thông tin 3 công khai</a>
+                            </div>
+                            <div class="list-group chu_de">
+                                <div class="container-fluid text-center top_chude"
+                                    style="background-color: rgb(255, 138, 21);">
+                                    <p class="ten_top_sidebar" style="color: rgb(202, 0, 0);">Chia sẻ - trao đổi</p>
+                                </div><a href="index.php?chucnang=view_baigiangdientu" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Bài giảng điện tử</a><a
+                                    href="index.php?chucnang=view_traodoikinhnghiem" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Trao đổi kinh nghiệm</a><a
+                                    href="index.php?chucnang=view_traodoitructuyen" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Trao đổi trực tuyên</a>
+                            </div>
+                            <div class="list-group chu_de">
+                                <div class="container-fluid text-center top_chude"
+                                    style="background-color: rgb(255, 138, 21);">
+                                    <p class="ten_top_sidebar" style="color: rgb(202, 0, 0);">Nhà trường - phụ huynh</p>
+                                </div><a href="index.php?chucnang=view_thucdon" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Thực đơn của bé</a><a
+                                    href="index.php?chucnang=view_hoidap" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Hỏi đáp</a><a
+                                    href="index.php?chucnang=view_tiepthu_ykien" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Ý kiến đóng góp</a><a
+                                    href="index.php?chucnang=view_tracuudiemhocsinh" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Tra cứu điểm học sinh</a><a
+                                    href="index.php?chucnang=view_thoikhoabieuhocsinh" class="list-group-item"
+                                    style="background-color: rgb(255, 255, 255);">Thời khóa biểu học sinh</a>
+                            </div>
+
+
+                        </div>
+                    </nav>
+                </div>
+
+            </div>
+            <div class="col-sm-9 col-md-pull-3">
+                <script>
+                    function caret(value) {
+                        if ($('#span_caret_' + value).hasClass('glyphicon-triangle-top')) {
+                            $('#span_caret_' + value).removeClass('glyphicon-triangle-top');
+                            $('#span_caret_' + value).addClass('glyphicon-triangle-bottom');
+                            // alert(1);
+                        } else {
+                            $('#span_caret_' + value).removeClass('glyphicon-triangle-bottom');
+                            $('#span_caret_' + value).addClass('glyphicon-triangle-top');
+                            // alert(2);
+                        }
+                    }
+                </script>
+                <div class="chu_de">
+                    <div class="top_chude container-fluid text-left" id="vitri_hienthi"
+                        style="background-color: rgb(255, 138, 21); height: 43px;">
+                        <a class="ten_chu_de" href="index.php?chucnang=view_chude&amp;chudecode=50"
+                            style="color: rgb(128, 0, 64);">Chương trình nhà trường</a>
+                    </div>
+                    <div class="body_chude" style="background-color: rgb(255, 255, 166); height: ;">
+
+                        <div class="">
+                            <div class="bai_viet_1" style="padding-left: 10px;">
+                                <a href="#"><img class="anh_title" src="anh_upload/2020_09_25_09_49_128850.jpg" alt=""
+                                        title="">
+                                    <h3 class="tieu_de_bai_viet">{{ctchude.tieude}}<small></small></h3>
+                                </a>
+                                <div class="tomtat_baiviet">Ngày 22 tháng 9 năm 2020 tại hội trường UBND quận Bắc Từ
+                                    Liêm, Hội Chữ thập đỏ quận Bắc Từ Liêm tổ chức hội nghị tổng kết công tác Chữ thập
+                                    đỏ trường học, năm học 2019 - 2020 và phương hướng nhiệm vụ năm học 2020 - 2021; Tập
+                                    huấn kỹ năng, nhiệm vụ công tác Chữ thập đỏ trường học. </div>
+                                <div class="clearfix fix-width-table" style="">
+                                    <p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span
+                                            style="font-size:12pt"><span
+                                                style="font-family:&quot;Times New Roman&quot;,serif"><span
+                                                    style="font-size:14.0pt"><span style="color:#222222"><span
+                                                            style="background-color:null">{{ctchude.noidung}}</span></span></span></span></span></p>
+
+                                    <p style="margin-left:0cm; margin-right:0cm; text-align:justify"><span
+                                            style="font-size:12pt"><span
+                                                style="font-family:&quot;Times New Roman&quot;,serif"><span
+                                                    style="font-size:14.0pt"><span style="color:#222222"><span
+                                                            style="background-color:null">Tại Hội nghị, trường Mầm non
+                                                            Thụy Phương được vinh dự biểu dương có thành tích xuất sắc
+                                                            trong công tác Y tế chữ thập đỏ năm học 2019-2020; nhân viên
+                                                            y tế Ngô Thu Nga được khen thưởng thành tích trong phong
+                                                            trào công tác chữ thập đỏ học đường năm học
+                                                            2019-2020</span></span></span></span></span></p>
+
+                                    <p style="margin-left:0cm; margin-right:0cm; text-align:justify"><img
+                                            src="/ckfinder/userfiles/images/image-20200925094736-1.jpeg"
+                                            style="width:100%"></p>
+
+                                    <p style="margin-left:0cm; margin-right:0cm; text-align:justify"><img
+                                            src="/ckfinder/userfiles/images/image-20200925094821-2.jpeg"
+                                            style="width:100%"></p>
+
+                                    <p style="margin-left:0cm; margin-right:0cm; text-align:justify"><img
+                                            src="/ckfinder/userfiles/images/image-20200925094849-3.jpeg"
+                                            style="width:100%"></p>
+
+                                    <p style="margin-left:0cm; margin-right:0cm; text-align:justify"><img
+                                            src="/ckfinder/userfiles/images/image-20200925094917-4.jpeg"
+                                            style="width:100%"></p>
+
+                                    <p style="margin-left:0cm; margin-right:0cm; text-align:justify">&nbsp;</p>
+
+                                </div>
+                                <div class="clearfix">
+                                    <div class="fb-comments"
+                                        data-href="http://mamnonthuyphuong.pgdbactuliem.edu.vn/index.php?chucnang=view_chitiet&amp;chudecode=50&amp;baivietcode=232591"
+                                        data-numposts="10" data-width="100%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--/.container-->
+</article>
